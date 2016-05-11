@@ -1,8 +1,8 @@
 var Player = function() 
 {
 	this.image = document.createElement("img");
-	this.x = 320 //canvas.width/2;
-	this.y = 240 //canvas.height/2;
+	this.x = 50;
+	this.y = 200; 
 	this.width = 159;
 	this.height = 163;
 	this.velocityX = 0;
