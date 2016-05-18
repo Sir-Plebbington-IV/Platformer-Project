@@ -48,15 +48,6 @@ var player = new Player();
 var keyboard = new Keyboard();
 
 
-var METER = TILE;
-var GRAVITY = METER * 9.8 * 6;
-var MAXDX = METER * 10;
-var MAXDY = METER * 15;
-var ACCEL = MAXDX * 2;
-var FRICTION = MAXDX * 6;
-var JUMP = METER * 1500;
-
-
 function cellAtPixelCoord(layer, x,y)
 {
 	if(x<0 || x>SCREEN_WIDTH)
