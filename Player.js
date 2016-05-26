@@ -1,13 +1,15 @@
 var Player = function() 
 {
 	this.image = document.createElement("img");
-	this.x = 350;
-	this.y = 235; 
+	this.position = new vector2();
+	//this.position.set( 9*TILE, 0*TILE);
+
 	this.width = 159;
 	this.height = 163;
 	
-	this.velocity = 1;
-	
+	this.velocity = new vector2();
+	//this.offset.set(-55,-87);
+
 	this.angularvelocity = 0;
 	this.rotation = 0;
 

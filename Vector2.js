@@ -1,8 +1,10 @@
-// I don't actually know what the vector 2 is supposed to be
-var vector2 = function()
+var vector2 = function vector2()
 {
-	this.set(50,200);
-	this.normalize();
+	this.x = 0;
+	this.y = 0;
 }
-
-var Vector2 = new vector2();
+vector2.prototype.set = (350, 235)
+{
+	this.x = 350;
+	this.y = 235;
+}
